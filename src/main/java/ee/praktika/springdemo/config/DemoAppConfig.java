@@ -1,4 +1,4 @@
-package com.luv2code.springdemo.config;
+package ee.praktika.springdemo.config;
 
 import java.beans.PropertyVetoException;
 import java.util.Properties;
@@ -27,7 +27,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan("com.luv2code.springdemo")
+@ComponentScan("ee.praktika.springdemo")
 @PropertySource({ "classpath:persistence-mysql.properties", "classpath:security-persistence-mysql.properties" })
 public class DemoAppConfig implements WebMvcConfigurer {
 
@@ -57,7 +57,7 @@ public class DemoAppConfig implements WebMvcConfigurer {
 
 		// set the jdbc driver
 		try {
-			myDataSource.setDriverClass("com.mysql.jdbc.Driver");		
+			myDataSource.setDriverClass("ee.mysql.jdbc.Driver");		
 		}
 		catch (PropertyVetoException exc) {
 			throw new RuntimeException(exc);

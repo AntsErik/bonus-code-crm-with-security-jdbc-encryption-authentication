@@ -1,4 +1,4 @@
-package com.luv2code.springdemo.controller;
+package ee.praktika.springdemo.controller;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.luv2code.springdemo.user.CrmUser;
+import ee.praktika.springdemo.user.CrmUser;
 
 @Controller
 @RequestMapping("/register")
