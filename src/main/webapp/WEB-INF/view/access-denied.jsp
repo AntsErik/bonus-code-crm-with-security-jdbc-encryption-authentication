@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>luv2code - Access Denied</title>
+	<title>ee.praktika - Access Denied</title>
 </head>
 
 <body>
